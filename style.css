@@ -26,6 +26,11 @@ body{
     background-color: #fff;
     border-radius: 1rem;
     margin-top: 2rem;
+    
+}
+
+.prayer-times-box {
+    margin-top: 3rem;
 }
 
 .prayer-list, .prayer-list-times{
@@ -41,6 +46,73 @@ body{
 .title {
     font-size: 3rem;
 }
+
+.searchBox{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+button{
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #06283D;
+    color: white;
+    border: 0;
+    box-shadow: 1px 1px 1px 1px #06283D;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #06283D;
+}
+
+#LocationInput {
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 5px solid #06283D;
+    font-size: 1rem;
+    outline: none;
+    text-indent: 10px;
+}
+
+.count-down-block{
+    height: 210px;
+    margin: 1rem;
+}
+
+#prayer-time{
+    font-size: 35px;
+    color: rgb(0, 171, 6);
+
+}
+
+#count-down {
+    font-size: 70px;
+    margin: -5px;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+
+
+
+
+
 
 
 
