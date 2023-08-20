@@ -1,0 +1,46 @@
+•{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #06283D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    transition: 0.6s ease-out;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.Box{
+    height: 700px;
+    flex-basis: 500px;
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.prayer-list, .prayer-list-times{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-bottom: -20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+
+
