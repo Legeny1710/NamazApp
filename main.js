@@ -1,13 +1,15 @@
 // import { CurrentDate } from "./date.js"
 
 
-
+// Prayer Times
 let fajr = document.getElementById("Fajr")
 let sun = document.getElementById("Sun")
 let dhuhr = document.getElementById("Dhuhr")
 let asr = document.getElementById("Asr")
 let maghrib = document.getElementById("Maghrib")
 let isha = document.getElementById("Isha")
+
+let dateText = document.getElementById("date")
 
 
 class CurrentDate{
@@ -19,13 +21,16 @@ class CurrentDate{
     }
 
     ReturnDate() {
-        let currentDate = `${this.day}-${this.month}-${this.year}`;
+        let currentDate = `${this.day} / ${this.month} / ${this.year}`;
         return currentDate
     }
 }
 
 
 const current_day = new CurrentDate()
+
+
+dateText.textContent = current_day.ReturnDate()
 
 
 
