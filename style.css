@@ -10,11 +10,9 @@ body{
     background-color: #06283D;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     color: black;
     font-family: "Roboto", sans-serif;
-    transition: 0.6s ease-out;
-    flex-direction: row;
     text-align: center;
 
 }
@@ -26,11 +24,14 @@ body{
     background-color: #fff;
     border-radius: 1rem;
     margin-top: 2rem;
+    transition: 0.4s;
     
 }
 
+
 .prayer-times-box {
     margin-top: 3rem;
+    transition: 0.6s;
 }
 
 .prayer-list, .prayer-list-times{
