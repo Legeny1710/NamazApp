@@ -30,6 +30,7 @@ searchbtn.addEventListener('click', function() {
     locationText.textContent = Chosenlocation
     Container.style.display = "block" 
     box.style.height = "700px"
+    box.style.marginTop = "2rem"
 
     fetch(`http://api.aladhan.com/v1/calendarByCity/${current_day.year}/${current_day.month+1}?city=${Chosenlocation}&country=United Kingdom&method=13`)
     .then(response => response.json())
